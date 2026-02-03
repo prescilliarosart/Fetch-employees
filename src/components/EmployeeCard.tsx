@@ -26,4 +26,6 @@ function EmployeeCard({ employee }: EmployeeCardProps) {
   );
 }
 
+
+
 export default EmployeeCard;

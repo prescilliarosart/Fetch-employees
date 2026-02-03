@@ -18,7 +18,7 @@ function App() {
 
   const getEmployee = () => {
     // Envoi de la requête à l'API
-    fetch("https://randomuser.me/api?nat=en")
+    fetch("http://localhost:3310/api/employees")
       .then((response) => response.json())
       .then((data) => {
         // On récupère le premier employé du tableau results
